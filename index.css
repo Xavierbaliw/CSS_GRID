@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links .link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.links .link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically adjust to screen size */
+    gap: 20px; /* Space between items */
+    margin-bottom: 40px;
+}
+
+.grid-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
